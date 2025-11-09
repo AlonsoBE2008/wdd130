@@ -30,9 +30,14 @@ height: auto;}
 main img{
 width: 150px; 
 
-height: auto;}
+height: auto;
+border: 1px solid gray;
+padding: 2px;
+background-color: #eee;
+color: aqua;}
 footer { margin-top: 49px;
     border-top: 1px solid gray;
     text-align: center;
 }
-main {padding: 1px;}
+main {padding: 1px;
+max-width: 20em;}
