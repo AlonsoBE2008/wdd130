@@ -34,7 +34,8 @@ height: auto;
 border: 1px solid gray;
 padding: 2px;
 background-color: #eee;
-color: aqua;}
+color: aqua;
+box-shadow: 0 0 30px gray;}
 footer { margin-top: 49px;
     border-top: 1px solid gray;
     text-align: center;
