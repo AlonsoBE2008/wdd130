@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #055a05; /* forest green*/
-    --secondary-color: #f4a261; /*warm sand*/
-    --accent1-color: #264653; /*dark slate blue*/
-    --accent2-color: #e9c46a; /*light golden yellow*/
-    --heading-font: "Times New Roman","Georgia", serif;
-    --body-font: Arial, Helvetica, sans_serif;
+  --primary-color: #055a05; /* forest green */
+  --secondary-color: #f4a261; /* warm sand */
+  --accent1-color: #264653; /* dark slate blue */
+  --accent2-color: #e9c46a; /* light golden yellow */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
 }
 * {
     margin: 0;
@@ -30,6 +30,7 @@ nav, p, section, article {
 }
 .socialmedia a {
     text-decoration: none;
+    width: 10px;
 }
 .hero {
     position: relative;
@@ -53,10 +54,20 @@ h1 {
   float: right;
   width: 150px;
 }
- article{
+article{
     position: absolute;
-    top: 400px;
+    top: 420px;
     background-color: azure;
     opacity: 0.9;
     text-align: center;
+ }
+.socialmedia img{
+    width: 100px;
+    height: auto;
+ }
+section h2 { 
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 10px;
+    color: white;
  }
