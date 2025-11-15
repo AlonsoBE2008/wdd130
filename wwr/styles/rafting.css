@@ -40,7 +40,7 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -70,4 +70,7 @@ section h2 {
     background-color: var(--accent1-color);
     padding: 10px;
     color: white;
+ }
+ .hero article{
+    position: absolute;
  }
