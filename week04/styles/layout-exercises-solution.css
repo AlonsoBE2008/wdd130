@@ -32,6 +32,7 @@ div {
     background-color: #abb;
     display: grid;
     place-items: center;
+    grid-template-columns: 3;
 }
 
 .container2 {
@@ -51,7 +52,7 @@ div {
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    -ms-grid-column-span:3;}
 
 .three {
     margin: .25rem;

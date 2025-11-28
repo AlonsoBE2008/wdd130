@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us| Whitewater Rafting .</title>
+    <meta name="description"
+        content="Whitewater Rafting Site Project website project BYU-IDAHO WDD 130 course homepage">
+    <meta name="author" content="Alonso Cajahuaman">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="Rafting Company logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1> Contact us</h1>
+        <p>123 Main River street</p>
+        <p>+1 999 999 9999</p>
+        <p><a href="mailto:">info@Whitewatercom</a></p>
+        <section class="contact-section">
+            <!-- Mapa a la izquierda -->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2240.9521207219736!2d-77.03953889376821!3d-11.8890967830183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1764369114687!5m2!1ses-419!2spe"
+                    width="100%" height="300" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Formulario a la derecha -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <fieldset>
+                        <legend>Purpose of Your Message:</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows="5"
+                        required></textarea>
+
+                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                        newsletter</label>
+
+                    <button type="submit">Send Message to Whitewater Rafting</button>
+                </form>
+            </div>
+        </section>
+        <section class="adventures-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/diablo.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/mallard.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/halfday.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon.jpg" alt="Salmon River Run">
+                    <figcaption>Salmon River Run</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/snake.jpg" alt="Snake River Canyon">
+                    <figcaption>Snake River Canyon</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2025, Whitewater Rafting, Alonso Cajahuaman</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Facebook logo">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/linkedin.png" alt="Linkedlin logo">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Instagram logo">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+
+</html>
