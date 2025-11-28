@@ -49,7 +49,7 @@ nav, p, section, article {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  color: #fff; 
 }
 .hero article img {
   float: right;
@@ -275,5 +275,4 @@ header nav a {
 }
 .data {
     text-align: center;
-    padding: auto;
 }
