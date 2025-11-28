@@ -22,10 +22,14 @@
         </nav>
     </header>
     <main>
-        <h1> Contact us</h1>
-        <p>123 Main River street</p>
-        <p>+1 999 999 9999</p>
-        <p><a href="mailto:">info@Whitewatercom</a></p>
+        <section class="data">
+            <h1> Whitewater Rafting Company</h1>
+            <p>123 Main River street</p>
+            <p>+1 999 999 9999</p>
+            <p><a href="mailto:">info@Whitewatercom</a></p>
+        </section>
+
+
         <section class="contact-section">
             <!-- Mapa a la izquierda -->
             <div class="map">
@@ -47,16 +51,19 @@
 
                     <fieldset>
                         <legend>Purpose of Your Message:</legend>
-                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                        <label><input type="radio" id="purpose-general" name="purpose" value="general" required> General
+                            Inquiry</label><br>
+                        <label><input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                            Reservation Question</label><br>
+                        <label><input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
                     </fieldset>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" placeholder="Write your message here..." rows="5"
                         required></textarea>
 
-                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                    <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
                         newsletter</label>
 
                     <button type="submit">Send Message to Whitewater Rafting</button>
@@ -67,27 +74,18 @@
             <h2>We Are Here to Serve You</h2>
             <div class="adventure-gallery">
                 <figure>
-                    <img src="images/diablo.jpg" alt="Los Dientes del Diablo">
+                    <img src="images/employe1.jpg" alt="Los Dientes del Diablo">
                     <figcaption>Los Dientes del Diablo</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/mallard.jpg" alt="Big Mallard">
+                    <img src="images/employe2.jpg" alt="Big Mallard">
                     <figcaption>Big Mallard</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/halfday.jpg" alt="Half Day Adventure">
+                    <img src="images/employe3.jpg" alt="Half Day Adventure">
                     <figcaption>Half Day Adventure</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/salmon.jpg" alt="Salmon River Run">
-                    <figcaption>Salmon River Run</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/snake.jpg" alt="Snake River Canyon">
-                    <figcaption>Snake River Canyon</figcaption>
-                </figure>
-            </div>
-        </section>
+
     </main>
     <footer>
         <p>©2025, Whitewater Rafting, Alonso Cajahuaman</p>
